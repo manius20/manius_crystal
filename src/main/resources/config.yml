@@ -4,7 +4,20 @@
 
 settings:
   disable-crystal-explosions: true       # Blokuje wybuchy End Crystali
-  remove-crystal-on-hit: true            # Po uderzeniu Crystal po prostu znika (bez wybuchu)
+  remove-crystal-on-hit: true            # Po uderzeniu Crystal znika bez wybuchu
   
   disable-tnt-minecart-explosions: true  # Blokuje wybuchy wagoników z TNT
   remove-tnt-minecart-on-hit: false      # Czy uderzenie TNT Minecarta ma go po prostu usunąć
+
+# Lista bloków chronionych przed jakimikolwiek wybuchami (np. TNT, Creepery itp.)
+protected-blocks:
+  enabled: true                          # Czy ochrona wybranych bloków jest włączona
+  list:                                  # Nazwy bloków zgodnie z Bukkit Material
+    - CHEST
+    - TRAPPED_CHEST
+    - BARREL
+    - ANVIL
+    - CHIPPED_ANVIL
+    - DAMAGED_ANVIL
+    - OBSIDIAN
+    - CRYING_OBSIDIAN
