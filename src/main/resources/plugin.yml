@@ -1,6 +1,6 @@
 name: manius_crystal
-version: 1.0.0
+version: 1.1.0
 main: pl.sesion16.nocrystaltnt.NoCrystalTNT
 api-version: '1.20'
 author: Sesion16
-description: Blokuje wybuchy i obrażenia z End Crystali oraz TNT Minecartów.
+description: Blokuje wybuchy End Crystali i TNT Minecartów oraz chroni wybrane bloki przed wybuchami.
