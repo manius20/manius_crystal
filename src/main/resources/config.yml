@@ -11,7 +11,7 @@ settings:
 
 # Lista bloków chronionych przed jakimikolwiek wybuchami (np. TNT, Creepery itp.)
 protected-blocks:
-  enabled: true                          # Czy ochrona wybranych bloków jest włączona
+  enabled: false                          # Czy ochrona wybranych bloków jest włączona
   list:                                  # Nazwy bloków zgodnie z Bukkit Material
     - CHEST
     - TRAPPED_CHEST
